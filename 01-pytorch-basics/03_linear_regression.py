@@ -7,6 +7,8 @@ x_train = torch.FloatTensor([[1], [2], [3]])
 y_train = torch.FloatTensor([[3], [5], [7]])
 
 model = nn.Linear(1,1) # input size = 1, output size = 1
+# y = wx + b
+
 
 # set Optimizer & loss function
 # SGD: Stochastic Gradient Descent
